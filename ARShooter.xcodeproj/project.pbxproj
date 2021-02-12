@@ -13,6 +13,14 @@
 		5743937225D72231003F5841 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5743937025D72231003F5841 /* Main.storyboard */; };
 		5743937425D72233003F5841 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5743937325D72233003F5841 /* Assets.xcassets */; };
 		5743937725D72233003F5841 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5743937525D72233003F5841 /* LaunchScreen.storyboard */; };
+		5743938725D7341F003F5841 /* watersplash.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5743938225D7341E003F5841 /* watersplash.wav */; };
+		5743938825D7341F003F5841 /* overtake.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5743938325D7341E003F5841 /* overtake.mp3 */; };
+		5743938925D7341F003F5841 /* explosion.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5743938425D7341E003F5841 /* explosion.wav */; };
+		5743938A25D7341F003F5841 /* monkey.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5743938525D7341F003F5841 /* monkey.mp3 */; };
+		5743938B25D7341F003F5841 /* rooster.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5743938625D7341F003F5841 /* rooster.mp3 */; };
+		5743938F25D735A6003F5841 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 5743938D25D735A5003F5841 /* spark.png */; };
+		5743939025D735A6003F5841 /* Explode.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 5743938E25D735A5003F5841 /* Explode.scnp */; };
+		5743939325D73BFC003F5841 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5743939225D73BFC003F5841 /* HomeVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		5743937325D72233003F5841 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5743937625D72233003F5841 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5743937825D72233003F5841 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5743938225D7341E003F5841 /* watersplash.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = watersplash.wav; sourceTree = "<group>"; };
+		5743938325D7341E003F5841 /* overtake.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = overtake.mp3; sourceTree = "<group>"; };
+		5743938425D7341E003F5841 /* explosion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = explosion.wav; sourceTree = "<group>"; };
+		5743938525D7341F003F5841 /* monkey.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = monkey.mp3; sourceTree = "<group>"; };
+		5743938625D7341F003F5841 /* rooster.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rooster.mp3; sourceTree = "<group>"; };
+		5743938D25D735A5003F5841 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		5743938E25D735A5003F5841 /* Explode.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = Explode.scnp; sourceTree = "<group>"; };
+		5743939225D73BFC003F5841 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +73,20 @@
 			isa = PBXGroup;
 			children = (
 				5743936A25D72231003F5841 /* AppDelegate.swift */,
+				5743938E25D735A5003F5841 /* Explode.scnp */,
+				5743938D25D735A5003F5841 /* spark.png */,
 				5743936C25D72231003F5841 /* art.scnassets */,
 				5743936E25D72231003F5841 /* ViewController.swift */,
+				5743939225D73BFC003F5841 /* HomeVC.swift */,
 				5743937025D72231003F5841 /* Main.storyboard */,
 				5743937325D72233003F5841 /* Assets.xcassets */,
 				5743937525D72233003F5841 /* LaunchScreen.storyboard */,
 				5743937825D72233003F5841 /* Info.plist */,
+				5743938425D7341E003F5841 /* explosion.wav */,
+				5743938525D7341F003F5841 /* monkey.mp3 */,
+				5743938325D7341E003F5841 /* overtake.mp3 */,
+				5743938625D7341F003F5841 /* rooster.mp3 */,
+				5743938225D7341E003F5841 /* watersplash.wav */,
 			);
 			path = ARShooter;
 			sourceTree = "<group>";
@@ -124,10 +148,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5743938725D7341F003F5841 /* watersplash.wav in Resources */,
 				5743936D25D72231003F5841 /* art.scnassets in Resources */,
+				5743938925D7341F003F5841 /* explosion.wav in Resources */,
+				5743938A25D7341F003F5841 /* monkey.mp3 in Resources */,
+				5743938B25D7341F003F5841 /* rooster.mp3 in Resources */,
+				5743939025D735A6003F5841 /* Explode.scnp in Resources */,
+				5743938F25D735A6003F5841 /* spark.png in Resources */,
 				5743937725D72233003F5841 /* LaunchScreen.storyboard in Resources */,
 				5743937425D72233003F5841 /* Assets.xcassets in Resources */,
 				5743937225D72231003F5841 /* Main.storyboard in Resources */,
+				5743938825D7341F003F5841 /* overtake.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +169,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5743939325D73BFC003F5841 /* HomeVC.swift in Sources */,
 				5743936F25D72231003F5841 /* ViewController.swift in Sources */,
 				5743936B25D72231003F5841 /* AppDelegate.swift in Sources */,
 			);
@@ -216,7 +248,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +303,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -287,7 +319,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5N8L5V4YZX;
 				INFOPLIST_FILE = ARShooter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,7 +339,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5N8L5V4YZX;
 				INFOPLIST_FILE = ARShooter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

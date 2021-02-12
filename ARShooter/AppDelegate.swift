@@ -7,11 +7,19 @@
 
 import UIKit
 
+var SCORE_SAVING_KEY = "SCORE_SAVING_KEY"
+
+
+
+
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+static var score: Int{
+        get{UserDefaults.standard.integer(forKey: SCORE_SAVING_KEY)}
+        set{UserDefaults.standard.integer(forKey: SCORE_SAVING_KEY)}
+    }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
